@@ -1,4 +1,4 @@
-package org.max.lesson3.seminar.accuweather;
+package homework3.seminar.accuweather;
 
 import io.restassured.http.Method;
 import org.junit.jupiter.api.Test;

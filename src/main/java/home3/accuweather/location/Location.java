@@ -41,19 +41,19 @@ public class Location {
     @JsonProperty("PrimaryPostalCode")
     private String primaryPostalCode;
     @JsonProperty("Region")
-    private Region region;
+    private org.max.lesson3.home.accuweather.location.Region region;
     @JsonProperty("Country")
-    private Country country;
+    private org.max.lesson3.home.accuweather.location.Country country;
     @JsonProperty("AdministrativeArea")
-    private AdministrativeArea administrativeArea;
+    private org.max.lesson3.home.accuweather.location.AdministrativeArea administrativeArea;
     @JsonProperty("TimeZone")
-    private TimeZone timeZone;
+    private org.max.lesson3.home.accuweather.location.TimeZone timeZone;
     @JsonProperty("GeoPosition")
-    private GeoPosition geoPosition;
+    private org.max.lesson3.home.accuweather.location.GeoPosition geoPosition;
     @JsonProperty("IsAlias")
     private Boolean isAlias;
     @JsonProperty("SupplementalAdminAreas")
-    private List<SupplementalAdminArea> supplementalAdminAreas;
+    private List<org.max.lesson3.home.accuweather.location.SupplementalAdminArea> supplementalAdminAreas;
     @JsonProperty("DataSets")
     private List<String> dataSets;
 
@@ -128,52 +128,52 @@ public class Location {
     }
 
     @JsonProperty("Region")
-    public Region getRegion() {
+    public org.max.lesson3.home.accuweather.location.Region getRegion() {
         return region;
     }
 
     @JsonProperty("Region")
-    public void setRegion(Region region) {
+    public void setRegion(org.max.lesson3.home.accuweather.location.Region region) {
         this.region = region;
     }
 
     @JsonProperty("Country")
-    public Country getCountry() {
+    public org.max.lesson3.home.accuweather.location.Country getCountry() {
         return country;
     }
 
     @JsonProperty("Country")
-    public void setCountry(Country country) {
+    public void setCountry(org.max.lesson3.home.accuweather.location.Country country) {
         this.country = country;
     }
 
     @JsonProperty("AdministrativeArea")
-    public AdministrativeArea getAdministrativeArea() {
+    public org.max.lesson3.home.accuweather.location.AdministrativeArea getAdministrativeArea() {
         return administrativeArea;
     }
 
     @JsonProperty("AdministrativeArea")
-    public void setAdministrativeArea(AdministrativeArea administrativeArea) {
+    public void setAdministrativeArea(org.max.lesson3.home.accuweather.location.AdministrativeArea administrativeArea) {
         this.administrativeArea = administrativeArea;
     }
 
     @JsonProperty("TimeZone")
-    public TimeZone getTimeZone() {
+    public org.max.lesson3.home.accuweather.location.TimeZone getTimeZone() {
         return timeZone;
     }
 
     @JsonProperty("TimeZone")
-    public void setTimeZone(TimeZone timeZone) {
+    public void setTimeZone(org.max.lesson3.home.accuweather.location.TimeZone timeZone) {
         this.timeZone = timeZone;
     }
 
     @JsonProperty("GeoPosition")
-    public GeoPosition getGeoPosition() {
+    public org.max.lesson3.home.accuweather.location.GeoPosition getGeoPosition() {
         return geoPosition;
     }
 
     @JsonProperty("GeoPosition")
-    public void setGeoPosition(GeoPosition geoPosition) {
+    public void setGeoPosition(org.max.lesson3.home.accuweather.location.GeoPosition geoPosition) {
         this.geoPosition = geoPosition;
     }
 
@@ -188,12 +188,12 @@ public class Location {
     }
 
     @JsonProperty("SupplementalAdminAreas")
-    public List<SupplementalAdminArea> getSupplementalAdminAreas() {
+    public List<org.max.lesson3.home.accuweather.location.SupplementalAdminArea> getSupplementalAdminAreas() {
         return supplementalAdminAreas;
     }
 
     @JsonProperty("SupplementalAdminAreas")
-    public void setSupplementalAdminAreas(List<SupplementalAdminArea> supplementalAdminAreas) {
+    public void setSupplementalAdminAreas(List<org.max.lesson3.home.accuweather.location.SupplementalAdminArea> supplementalAdminAreas) {
         this.supplementalAdminAreas = supplementalAdminAreas;
     }
 

@@ -13,27 +13,27 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 public class Elevation {
 
     @JsonProperty("Metric")
-    private Metric metric;
+    private org.max.lesson3.home.accuweather.location.Metric metric;
     @JsonProperty("Imperial")
-    private Imperial imperial;
+    private org.max.lesson3.home.accuweather.location.Imperial imperial;
 
     @JsonProperty("Metric")
-    public Metric getMetric() {
+    public org.max.lesson3.home.accuweather.location.Metric getMetric() {
         return metric;
     }
 
     @JsonProperty("Metric")
-    public void setMetric(Metric metric) {
+    public void setMetric(org.max.lesson3.home.accuweather.location.Metric metric) {
         this.metric = metric;
     }
 
     @JsonProperty("Imperial")
-    public Imperial getImperial() {
+    public org.max.lesson3.home.accuweather.location.Imperial getImperial() {
         return imperial;
     }
 
     @JsonProperty("Imperial")
-    public void setImperial(Imperial imperial) {
+    public void setImperial(org.max.lesson3.home.accuweather.location.Imperial imperial) {
         this.imperial = imperial;
     }
 

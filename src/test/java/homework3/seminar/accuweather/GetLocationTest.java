@@ -31,7 +31,7 @@ public class GetLocationTest extends AccuweatherAbstractTest {
     @Test
     void getLocation_autocomplete_returnOmsk() {
 
-        List<Location> response = given()
+        List<org.max.lesson3.home.accuweather.location.Location> response = given()
                 .queryParam("apikey", getApiKey())
                 .when()
                 .get(getBaseUrl()+"/locations/v1/cities/autocomplete?q=Omsk")
@@ -39,7 +39,7 @@ public class GetLocationTest extends AccuweatherAbstractTest {
                 .statusCode(200)
                 .time(Matchers.lessThan(2000L))
                 .extract()
-                .body().jsonPath().getList(".", Location.class);
+                .body().jsonPath().getList(".", org.max.lesson3.home.accuweather.location.Location.class);
 
         Assertions.assertEquals(3,response.size());
         Assertions.assertEquals("Omsk", response.get(0).getLocalizedName());

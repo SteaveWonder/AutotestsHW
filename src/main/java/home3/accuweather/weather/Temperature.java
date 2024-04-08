@@ -13,27 +13,27 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 public class Temperature {
 
     @JsonProperty("Minimum")
-    private Minimum minimum;
+    private org.max.lesson3.home.accuweather.weather.Minimum minimum;
     @JsonProperty("Maximum")
-    private Maximum maximum;
+    private org.max.lesson3.home.accuweather.weather.Maximum maximum;
 
     @JsonProperty("Minimum")
-    public Minimum getMinimum() {
+    public org.max.lesson3.home.accuweather.weather.Minimum getMinimum() {
         return minimum;
     }
 
     @JsonProperty("Minimum")
-    public void setMinimum(Minimum minimum) {
+    public void setMinimum(org.max.lesson3.home.accuweather.weather.Minimum minimum) {
         this.minimum = minimum;
     }
 
     @JsonProperty("Maximum")
-    public Maximum getMaximum() {
+    public org.max.lesson3.home.accuweather.weather.Maximum getMaximum() {
         return maximum;
     }
 
     @JsonProperty("Maximum")
-    public void setMaximum(Maximum maximum) {
+    public void setMaximum(org.max.lesson3.home.accuweather.weather.Maximum maximum) {
         this.maximum = maximum;
     }
 

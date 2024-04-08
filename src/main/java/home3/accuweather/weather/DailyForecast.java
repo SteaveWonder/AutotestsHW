@@ -24,11 +24,11 @@ public class DailyForecast {
     @JsonProperty("EpochDate")
     private Integer epochDate;
     @JsonProperty("Temperature")
-    private Temperature temperature;
+    private org.max.lesson3.home.accuweather.weather.Temperature temperature;
     @JsonProperty("Day")
-    private Day day;
+    private org.max.lesson3.home.accuweather.weather.Day day;
     @JsonProperty("Night")
-    private Night night;
+    private org.max.lesson3.home.accuweather.weather.Night night;
     @JsonProperty("Sources")
     private List<String> sources;
     @JsonProperty("MobileLink")
@@ -57,32 +57,32 @@ public class DailyForecast {
     }
 
     @JsonProperty("Temperature")
-    public Temperature getTemperature() {
+    public org.max.lesson3.home.accuweather.weather.Temperature getTemperature() {
         return temperature;
     }
 
     @JsonProperty("Temperature")
-    public void setTemperature(Temperature temperature) {
+    public void setTemperature(org.max.lesson3.home.accuweather.weather.Temperature temperature) {
         this.temperature = temperature;
     }
 
     @JsonProperty("Day")
-    public Day getDay() {
+    public org.max.lesson3.home.accuweather.weather.Day getDay() {
         return day;
     }
 
     @JsonProperty("Day")
-    public void setDay(Day day) {
+    public void setDay(org.max.lesson3.home.accuweather.weather.Day day) {
         this.day = day;
     }
 
     @JsonProperty("Night")
-    public Night getNight() {
+    public org.max.lesson3.home.accuweather.weather.Night getNight() {
         return night;
     }
 
     @JsonProperty("Night")
-    public void setNight(Night night) {
+    public void setNight(org.max.lesson3.home.accuweather.weather.Night night) {
         this.night = night;
     }
 

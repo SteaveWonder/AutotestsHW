@@ -18,7 +18,7 @@ public class GeoPosition {
     @JsonProperty("Longitude")
     private Double longitude;
     @JsonProperty("Elevation")
-    private Elevation elevation;
+    private org.max.lesson3.home.accuweather.location.Elevation elevation;
 
     @JsonProperty("Latitude")
     public Double getLatitude() {
@@ -41,12 +41,12 @@ public class GeoPosition {
     }
 
     @JsonProperty("Elevation")
-    public Elevation getElevation() {
+    public org.max.lesson3.home.accuweather.location.Elevation getElevation() {
         return elevation;
     }
 
     @JsonProperty("Elevation")
-    public void setElevation(Elevation elevation) {
+    public void setElevation(org.max.lesson3.home.accuweather.location.Elevation elevation) {
         this.elevation = elevation;
     }
 

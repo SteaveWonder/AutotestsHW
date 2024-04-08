@@ -14,27 +14,27 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 public class Weather {
 
     @JsonProperty("Headline")
-    private Headline headline;
+    private org.max.lesson3.home.accuweather.weather.Headline headline;
     @JsonProperty("DailyForecasts")
-    private List<DailyForecast> dailyForecasts;
+    private List<org.max.lesson3.home.accuweather.weather.DailyForecast> dailyForecasts;
 
     @JsonProperty("Headline")
-    public Headline getHeadline() {
+    public org.max.lesson3.home.accuweather.weather.Headline getHeadline() {
         return headline;
     }
 
     @JsonProperty("Headline")
-    public void setHeadline(Headline headline) {
+    public void setHeadline(org.max.lesson3.home.accuweather.weather.Headline headline) {
         this.headline = headline;
     }
 
     @JsonProperty("DailyForecasts")
-    public List<DailyForecast> getDailyForecasts() {
+    public List<org.max.lesson3.home.accuweather.weather.DailyForecast> getDailyForecasts() {
         return dailyForecasts;
     }
 
     @JsonProperty("DailyForecasts")
-    public void setDailyForecasts(List<DailyForecast> dailyForecasts) {
+    public void setDailyForecasts(List<org.max.lesson3.home.accuweather.weather.DailyForecast> dailyForecasts) {
         this.dailyForecasts = dailyForecasts;
     }
 
