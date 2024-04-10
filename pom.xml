@@ -105,7 +105,7 @@
                         <schema>schemaName</schema>
                     </schemas>  -->
                     <url>jdbc:sqlite:demo.db</url>
-                    <locations>filesystem:db/demo/migration</locations>
+                    <locations>filesystem:db/home/migration</locations>
                 </configuration>
             </plugin>
             <!-- Plugin для запуска тестовых классов - т.е. запуск тестов -->
