@@ -104,7 +104,7 @@
                     <schemas>
                         <schema>schemaName</schema>
                     </schemas>  -->
-                    <url>jdbc:sqlite:demo.db</url>
+                    <url>jdbc:sqlite:home.db</url>
                     <locations>filesystem:db/home/migration</locations>
                 </configuration>
             </plugin>
